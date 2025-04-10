@@ -3,54 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your App Name] - Support</title>
+    <title>Abma Tech - Support</title>
     <style>
-        /* Basic Reset & Body Styling */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 0;
+            padding: 20px; /* Add some padding around the content */
             background-color: #f8f8f8;
             color: #333;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Ensure body takes full viewport height */
+            text-align: center; /* Center text within the container */
         }
 
-        /* Container for Content */
         .container {
-            max-width: 800px;
-            margin: 20px auto; /* Centers container and adds space top/bottom */
-            padding: 25px;
-            background-color: #ffffff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 600px; /* Limit width */
+            background-color: #fff; /* White background for the content box */
+            padding: 30px;
             border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
-        /* Header Styling */
-        header {
-            border-bottom: 1px solid #eee;
-            padding-bottom: 15px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            color: #1a73e8; /* A nice blue, change if desired */
-        }
-
-        /* Section Styling */
-        section {
-            margin-bottom: 25px;
-        }
-
-        section h2 {
-            color: #444;
-            border-bottom: 1px dashed #ccc;
-            padding-bottom: 5px;
+        h1 {
+            margin-top: 0; /* Remove default top margin */
+            color: #1a73e8; /* Optional: Add a touch of color */
             margin-bottom: 15px;
         }
 
-        /* Link Styling */
+        h2 {
+            font-size: 1.2em;
+            color: #444;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee; /* Subtle separator */
+            padding-bottom: 5px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
         a {
             color: #1a73e8;
             text-decoration: none;
@@ -60,22 +55,7 @@
             text-decoration: underline;
         }
 
-        /* FAQ Styling (using Description List) */
-        dl dt { /* Question */
-            font-weight: bold;
-            margin-top: 15px;
-        }
-
-        dl dd { /* Answer */
-            margin-left: 0;
-            margin-bottom: 10px;
-            padding-left: 15px; /* Indent answer slightly */
-            border-left: 2px solid #eee;
-        }
-
-        /* Footer Styling */
         footer {
-            text-align: center;
             margin-top: 30px;
             padding-top: 15px;
             border-top: 1px solid #eee;
@@ -83,90 +63,24 @@
             color: #777;
         }
 
-        /* Basic Responsiveness */
-        @media (max-width: 600px) {
-            .container {
-                margin: 10px;
-                padding: 15px;
-            }
-            header h1 {
-                font-size: 1.8em;
-            }
-            section h2 {
-                font-size: 1.3em;
-            }
-        }
-
     </style>
 </head>
 <body>
 
     <div class="container">
-        <header>
-            <h1>[Your App Name] - Support</h1>
-            <!-- Optional: Add a brief tagline for your app below -->
-            <!-- <p>Your awesome app's concise description here.</p> -->
-        </header>
 
-        <main>
-            <section id="contact">
-                <h2>Contact Us</h2>
-                <p>
-                    If you need help with [Your App Name] or have any questions, feedback, or bug reports, please reach out to us.
-                </p>
-                <p>
-                    <strong>Support Email:</strong> <a href="mailto:[your.support.email@example.com]">[your.support.email@example.com]</a>
-                </p>
-                <p>
-                    We aim to respond to all inquiries within [e.g., 24-48] business hours.
-                </p>
-                 <!-- Optional: Add links to social media if you offer support there -->
-                 <!--
-                 <p>
-                    You can also find us on: <a href="[Your Twitter Link]">Twitter</a> | <a href="[Your Facebook Link]">Facebook</a>
-                 </p>
-                 -->
-            </section>
+        <h1>Abma Tech - Support</h1>
 
-            <!-- Optional: Frequently Asked Questions Section -->
-            <section id="faq">
-                <h2>Frequently Asked Questions (FAQ)</h2>
-                <dl>
-                    <dt>Question 1: [Common Question About Your App]?</dt>
-                    <dd>[Clear and concise answer to Question 1].</dd>
+        <h2>Support & Feedback</h2>
 
-                    <dt>Question 2: [Another Common Question]?</dt>
-                    <dd>[Clear and concise answer to Question 2]. You can include <a href="#">links</a> if needed.</dd>
-
-                    <dt>Question 3: How do I [Perform a Specific Action in App]?</dt>
-                    <dd>[Step-by-step instructions or explanation for Question 3].</dd>
-
-                    <!-- Add more questions and answers as needed -->
-                </dl>
-                 <p>
-                    If your question isn't answered here, please contact us using the email above.
-                 </p>
-            </section>
-
-            <section id="legal">
-                <h2>Important Links</h2>
-                <ul>
-                    <li><a href="[Link to Your Privacy Policy Page/Document]">Privacy Policy</a></li>
-                    <li><a href="[Link to Your Terms of Service Page/Document]">Terms of Service</a></li>
-                    <!-- Add any other relevant links, e.g., tutorials, website -->
-                </ul>
-                <p>
-                    <strong>Important:</strong> You MUST provide a valid Privacy Policy. Both Apple and Google require this. You may also need Terms of Service depending on your app's functionality. These can be separate pages or documents hosted online.
-                </p>
-            </section>
-
-        </main>
+        <p>
+            If you have any questions or suggestions about our apps, please reach out to us at <a href="mailto:ma2669637@gmail.com">ma2669637@gmail.com</a>
+        </p>
 
         <footer>
-            <p>&copy; [Current Year] Abma Tech. All Rights Reserved.</p> <!-- Updated company name here -->
-            <p>App available on the <a href="[Link to your App on Apple App Store]">Apple App Store</a> and <a href="[Link to your App on Google Play Store]">Google Play Store</a>.</p>
-            <!-- Replace placeholders above once your app is live -->
+            © [2025] Abma Tech. All Rights Reserved.
         </footer>
+
     </div>
 
 </body>
